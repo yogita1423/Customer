@@ -1,7 +1,5 @@
-let getCusturl =
-  "https://4uvo376113.execute-api.us-east-1.amazonaws.com/customer";
-let postCusturl =
-  "https://4uvo376113.execute-api.us-east-1.amazonaws.com/customer";
+let getCusturl = "https://localhost:5000/Customer";
+let postCusturl = "https://localhost:5000/Customer";
 
 module.exports = {
   getCusturl,
