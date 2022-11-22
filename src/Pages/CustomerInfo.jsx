@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Footer from "../Component/Footer";
 import Navbar from "../Component/Navbar";
-import postCusturl from "./Config"
+import {postCusturl} from "./Config"
 
 
 const CustomerInfo = () => {
