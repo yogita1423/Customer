@@ -2,14 +2,14 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
-import customer from "./Pages/Customer";
-import customerInfo from "./Pages/CustomerInfo";
+import Customer from "./Pages/Customer";
+import CustomerInfo from "./Pages/CustomerInfo";
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/customer" element={<Customer />} />
-        <Route path="/customerInfo" element={<CustomerInfo />} />
+        <Route path="/Customer" element={<Customer />} />
+        <Route path="/CustomerInfo" element={<CustomerInfo />} />
       </Routes>
     </BrowserRouter>
   );
